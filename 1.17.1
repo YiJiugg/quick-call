@@ -1,0 +1,263 @@
+package org.cadenhead.minecraft;
+
+import java.util.logging.*;
+import org.bukkit.*;
+import org.bukkit.command.*;
+import org.bukkit.entity.*;
+import org.bukkit.plugin.java.*;
+
+public class Quickcall extends JavaPlugin{
+    public static final Logger log = Logger.getLogger("minecraft");
+    
+    public boolean onCommand(CommandSender sender, Command command,
+         String label, String[] arguments) {
+         if  (label.equalsIgnoreCase("cow")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Cow.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+         if  (label.equalsIgnoreCase("sheep")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Sheep.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+         if (label.equalsIgnoreCase("zombie")) {
+             if (sender instanceof Player) {
+                    Player me = (Player) sender;
+                    //获取玩家
+                    Location spot = me.getLocation();
+                    //获取玩家当前位置
+                    World world = me.getWorld();
+                    //获取玩家所在世界
+                    world.spawn(spot, Zombie.class);
+                    log.info("[summonmobs] summon success");
+                    return true;
+                }
+            }
+              if (label.equalsIgnoreCase("enderman")) {
+                if (sender instanceof Player) {
+                    Player me = (Player) sender;
+                    //获取玩家
+                    Location spot = me.getLocation();
+                    //获取玩家当前位置
+                    World world = me.getWorld();
+                    //获取玩家所在世界
+                    world.spawn(spot, Enderman.class);
+                    log.info("[summonmobs] summon success");
+                    return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("marker")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Marker.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("squid")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Squid.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("axolotl")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Axolotl.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("wither")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Wither.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("bat")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Bat.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("fox")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Fox.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("cat")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot,Cat.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("horse")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Horse.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("donkey")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Donkey.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("mule")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Mule.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("wolf")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Wolf.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("panda")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Panda.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("villager")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Villager.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("ocelot")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Ocelot.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            if  (label.equalsIgnoreCase("strider")) {
+              if (sender instanceof Player) {
+                  Player me = (Player) sender;
+                  //获取玩家
+                  Location spot = me.getLocation();
+                  //获取玩家当前位置
+                  World world = me.getWorld();
+                  //获取玩家所在世界
+                  world.spawn(spot, Strider.class);
+                  log.info("[summonmobs] summon success");
+                  return true;
+                }
+            }
+            return false;
+        }
+    }
