@@ -1,0 +1,47 @@
+name: Quick call
+
+auther: Yi_Jiu
+
+main: org.cadenhead.minecraft.Quick call
+
+commands:
+    cow:
+        description: summon a cow,
+    sheep:
+        description: summon a sheep,
+    zombie:
+        description: summon a zombie,
+    enderman:
+        description: summon a enderman,
+    mule:
+        description: summon a mule,
+    donkey:
+        description: summon a donkey,
+    horse:
+        description: summon a horse,
+    cat:
+        description: summon a cat,
+    fox:
+        description: summon a fox,
+    bat:
+        description: summon a bat,
+    wither:
+        description: summon a wither,
+    axolotl:
+        description: summon a axolotl,
+    squid:
+        description: summon a squid,
+    marker:
+        description: summon a marker,
+    panda:
+        description: summon a panda,
+    wolf:
+        description: summon a wolf,
+    villager:
+        description: summon a villager,
+    ocelot:
+        description: summon a ocelot,
+    strider:
+        description: summon a strider,
+
+version: 1.17.1-1.1
